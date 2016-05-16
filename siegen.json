@@ -1,0 +1,56 @@
+{
+  "name": "Freifunk Siegen",
+  "url": "https://siegerland.freifunk.net/",
+  "location": {
+    "city": "Siegen",
+    "country": "DE",
+    "lat": 50.87486161157283,
+    "lon": 8.022079467773438
+  },
+  "contact": {
+    "email": "dev0@mailbox.org"
+  },
+  "metacommunity": "Eulenfunk",
+  "state": {
+    "nodes": 111,
+    "lastchange": "2016-05-16T21:32:22.125Z",
+    "focus": []
+  },
+  "nodeMaps": [
+    {
+      "url": "https://siegen.map.eulenfunk.de/data/nodelist.json",
+      "interval": "1",
+      "technicalType": "nodelist"
+    },
+    {
+      "url": "https://siegen.map.eulenfunk.de/#!v:m",
+      "interval": "1",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
+    },
+    {
+      "url": "https://siegen.map.eulenfunk.de/#!v:g",
+      "interval": "1",
+      "technicalType": "meshviewer",
+      "mapType": "structural"
+    }
+  ],
+  "techDetails": {
+    "firmware": {
+      "name": "gluon2016.1.3",
+      "url": "http://firmware.freifunk-mk.de/siegerland/stable/",
+      "vpnaccess": "automatic"
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "autoupdate"
+    ],
+    "legals": [
+      "vpnnational",
+      "vpninternational"
+    ]
+  },
+  "api": "0.4.13"
+}

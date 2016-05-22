@@ -1,8 +1,8 @@
 {
-  "name": "Freifunk Hilchenbach",
+  "name": "Freifunk Freudenberg",
   "url": "https://siegerland.freifunk.net/",
   "location": {
-    "city": "Siegen",
+    "city": "Freudenberg",
     "country": "DE",
     "lat": 50.99352222415205,
     "lon": 8.106751441955565
@@ -18,18 +18,18 @@
   },
   "nodeMaps": [
     {
-      "url": "https://hilchenbach.map.eulenfunk.de/data/nodelist.json",
+      "url": "https://freudenberg.map.eulenfunk.de/data/nodelist.json",
       "interval": "1",
       "technicalType": "nodelist"
     },
     {
-      "url": "https://hilchenbach.map.eulenfunk.de/#!v:m",
+      "url": "https://freudenberg.map.eulenfunk.de/#!v:m",
       "interval": "1",
       "technicalType": "meshviewer",
       "mapType": "geographical"
     },
     {
-      "url": "https://hilchenbach.map.eulenfunk.de/#!v:g",
+      "url": "https://freudenberg.map.eulenfunk.de/#!v:g",
       "interval": "1",
       "technicalType": "meshviewer",
       "mapType": "structural"
@@ -38,7 +38,7 @@
   "techDetails": {
     "firmware": {
       "name": "gluon2016.1.3",
-      "url": "http://firmware.freifunk-mk.de/hilchenbach/stable/",
+      "url": "http://firmware.freifunk-mk.de/freudenberg/stable/",
       "vpnaccess": "automatic"
     },
     "routing": [

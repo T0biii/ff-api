@@ -1,56 +1,56 @@
 {
-  "name": "Freifunk Hilchenbach",
-  "url": "https://siegerland.freifunk.net/",
-  "location": {
-    "city": "Hilchenbach",
-    "country": "DE",
-    "lat": 50.99352222415205,
-    "lon": 8.106751441955565
-  },
-  "contact": {
-    "email": "dev0@mailbox.org"
-  },
-  "metacommunity": "Siegerland",
-  "state": {
-    "nodes": 54,
-    "lastchange": "2016-05-16T21:36:09.447Z",
-    "focus": []
-  },
-  "nodeMaps": [
-    {
-      "url": "https://hilchenbach.map.eulenfunk.de/data/nodelist.json",
-      "interval": "1",
-      "technicalType": "nodelist"
+    "name": "Freifunk Hilchenbach",
+    "url": "https://siegerland.freifunk.net/",
+    "location": {
+        "city": "Hilchenbach",
+        "country": "DE",
+        "lat": 50.99352222415205,
+        "lon": 8.106751441955565
     },
-    {
-      "url": "https://hilchenbach.map.eulenfunk.de/#!v:m",
-      "interval": "1",
-      "technicalType": "meshviewer",
-      "mapType": "geographical"
+    "contact": {
+        "email": "dev0@mailbox.org"
     },
-    {
-      "url": "https://hilchenbach.map.eulenfunk.de/#!v:g",
-      "interval": "1",
-      "technicalType": "meshviewer",
-      "mapType": "structural"
-    }
-  ],
-  "techDetails": {
-    "firmware": {
-      "name": "gluon2016.1.3",
-      "url": "http://firmware.freifunk-mk.de/hilchenbach/stable/",
-      "vpnaccess": "automatic"
+    "metacommunity": "Siegerland",
+    "state": {
+        "nodes": 20,
+        "lastchange": "2024-02-19T00:24:11+00:00",
+        "focus": []
     },
-    "routing": [
-      "batman-adv"
+    "nodeMaps": [
+        {
+            "url": "https://hilchenbach.map.eulenfunk.de/data/nodelist.json",
+            "interval": "1",
+            "technicalType": "nodelist"
+        },
+        {
+            "url": "https://hilchenbach.map.eulenfunk.de/#!v:m",
+            "interval": "1",
+            "technicalType": "meshviewer",
+            "mapType": "geographical"
+        },
+        {
+            "url": "https://hilchenbach.map.eulenfunk.de/#!v:g",
+            "interval": "1",
+            "technicalType": "meshviewer",
+            "mapType": "structural"
+        }
     ],
-    "updatemode": [
-      "autoupdate"
-    ],
-    "legals": [
-      "vpnnational",
-      "vpninternational"
-    ]
-  },
-  "api": "0.4.13"
+    "techDetails": {
+        "firmware": {
+            "name": "gluon2016.1.3",
+            "url": "http://firmware.freifunk-mk.de/hilchenbach/stable/",
+            "vpnaccess": "automatic"
+        },
+        "routing": [
+            "batman-adv"
+        ],
+        "updatemode": [
+            "autoupdate"
+        ],
+        "legals": [
+            "vpnnational",
+            "vpninternational"
+        ]
+    },
+    "api": "0.4.13"
 }
